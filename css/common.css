@@ -1,9 +1,11 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Zen+Maru+Gothic&display=swap');
-
+@import url("https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css");
 /* 
 水色：#93D6E7
 黄色：#FFCC70
+オレンジ：#ED5F32
+濃い水色：#31A9C8
 */
 
 html {
@@ -34,6 +36,7 @@ img {
     background-color: #93D6E7;
 }
 .header-container{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,6 +46,19 @@ img {
 }
 .header-center{
     font-size: 1.2rem;
+}
+.header-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-content: center;
+    width: 48px;
+    height: 100%;
+    & img{
+        width: 24px;
+        height: auto;
+    }
 }
 .tabbar{
     position: fixed;
