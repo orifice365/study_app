@@ -1,11 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/quiz.css">
 </head>
 <body>
-    
+    <header id="header" class="header">
+        <div class="header-container">
+            <a href="index.html" class="header-left">
+                <img src="images/arrow-left.svg"></img>
+            </a>
+            <div class="header-center">FINAL DRAFT</div>
+        </div>
+    </header>
+    <div class="quiz-main">
+        <div class="quiz-main-upper">
+            <div class="quiz-number">あと<span>25</span>問</div>
+            <div class="restore-button">
+                <img src="images/arrow-arc-left.png" alt="一つ戻る">
+            </div>
+        </div>
+        <div class="quiz-container">
+            <div class="quizzes">
+
+                <div class="quiz-item is-current">
+                    <p class="question">
+                        最近、歩きスマホをしている人をよく見かけるようになった。
+                    </p>
+                    <p class="answer">
+                        These days, I often see people using a smartphone while walking.
+                    </p>
+                </div>
+
+                <div class="quiz-item">
+                    <p class="question">
+                        最近、歩きスマホをしている人をよく見かけるようになった。こちらが2番目。
+                    </p>
+                    <p class="answer">
+                        These days, I often see people using a smartphone while walking.
+                    </p>
+                </div>
+
+            </div>
+            <div id="correct" class="correct-area">
+                <img src="images/circle.svg">
+            </div>
+            <div id="incorrect" class="incorrect-area">
+                <img src="images/x.svg">
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
