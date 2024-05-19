@@ -16,43 +16,31 @@
             <div class="header-center">FINAL DRAFT</div>
         </div>
     </header>
-    <div class="quiz-main">
+    <main>
         <div class="quiz-main-upper">
-            <div class="quiz-number">あと<span>25</span>問</div>
+            <div class="quiz-count">
+                あと<span id="remaining-quiz">25</span>問
+            </div>
             <div class="restore-button">
                 <img src="images/arrow-arc-left.png" alt="一つ戻る">
             </div>
         </div>
-        <div class="quiz-container">
-            <div class="quizzes">
-
-                <div class="quiz-item is-current">
-                    <p class="question">
-                        最近、歩きスマホをしている人をよく見かけるようになった。
-                    </p>
-                    <p class="answer">
-                        These days, I often see people using a smartphone while walking.
-                    </p>
-                </div>
-
-                <div class="quiz-item">
-                    <p class="question">
-                        最近、歩きスマホをしている人をよく見かけるようになった。こちらが2番目。
-                    </p>
-                    <p class="answer">
-                        These days, I often see people using a smartphone while walking.
-                    </p>
-                </div>
-
-            </div>
-            <div id="correct" class="correct-area">
+        <div id="quiz-container" class="quiz-container">
+        </div>
+        <div class="button-wrapper">
+            <div id="correct" class="correct-button">
                 <img src="images/circle.svg">
             </div>
-            <div id="incorrect" class="incorrect-area">
+            <div id="incorrect" class="incorrect-button">
                 <img src="images/x.svg">
             </div>
         </div>
-    </div>
-    <script src="js/script.js"></script>
+        <div class="background">
+            <div class="correct-area"></div>
+            <div class="incorrect-area"></div>
+            <p>おわり！！</p>
+        </div>
+    </main>
+    <script src="js/quiz.js"></script>
 </body>
 </html>
