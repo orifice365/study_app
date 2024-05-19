@@ -85,6 +85,15 @@ function countQuiz() {
     }
 }
 
+// is-currentを次の要素へ
+function changeCurrentQuiz() {
+    const currentQuiz = document.querySelector('.is-current');
+    const nextQuiz = currentQuiz.previousElementSibling;
+    if (nextQuiz) {
+        nextQuiz.classList.add('is-current');
+    }
+}
+
 // 解答の表示非表示
 document.addEventListener('click', function (event) {
     if (event.target.classList.contains('is-current')) {
@@ -96,16 +105,16 @@ document.addEventListener('click', function (event) {
 // 正解時の処理
 correctButton.addEventListener('click', function () {
     const currentQuiz = document.querySelector('.is-current');
-    
+
+    // 問題数の処理
+    numberOfQuizzes = numberOfQuizzes - 1;
+    countQuiz();
+
     currentQuiz.classList.add('is-correct');
     changeCurrentQuiz();
     setTimeout(function () {
         currentQuiz.remove();
     }, 400);
-
-    // 問題数の処理
-    numberOfQuizzes = numberOfQuizzes - 1;
-    countQuiz();
 })
 
 // 不正解時の処理
@@ -114,7 +123,6 @@ incorrectButton.addEventListener('click', function () {
     const clonedQuiz = currentQuiz.cloneNode(true);
 
     clonedQuiz.classList.remove('is-current');
-    //解答を非表示に
     const clonedAnswer = clonedQuiz.querySelector('.answer');
     if (clonedAnswer.classList.contains('is-shown')) {
         clonedAnswer.classList.remove('is-shown');
@@ -127,14 +135,5 @@ incorrectButton.addEventListener('click', function () {
         currentQuiz.remove();
     }, 400);
 })
-
-// is-currentを次の要素へ
-function changeCurrentQuiz() {
-    const currentQuiz = document.querySelector('.is-current');
-    const nextQuiz = currentQuiz.previousElementSibling;
-    if (nextQuiz) {
-        nextQuiz.classList.add('is-current');
-    }
-}
 
 enterQuizData();
