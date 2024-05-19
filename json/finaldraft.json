@@ -1,0 +1,20 @@
+{
+    "quizzes": [
+        {
+            "question": "問題1",
+            "answer": "解答1"
+        },
+        {
+            "question": "問題2",
+            "answer": "解答2"
+        },
+        {
+            "question": "問題3",
+            "answer": "解答3"
+        },
+        {
+            "question": "問題4",
+            "answer": "解答4"
+        }
+    ]
+}
