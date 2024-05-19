@@ -1,10 +1,26 @@
 @charset "UTF-8";
 .main{
+    width: 200%;
+    display: flex;
+}
+
+.page1-container{
+    width: 50%;
+    min-height: 100vh;
+    padding: 48px 6vw 56px;
+}
+.page2-container{
+    width: 50%;
+    min-height: 100vh;
+    padding: 48px 6vw 56px;
+}
+
+/* .main{
     width: 85vw;
     min-height: 100vh;
     padding: 48px 0 56px;
     margin: 0 auto;
-}
+} */
 
 .workbook-wrapper{
     display: flex;

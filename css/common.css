@@ -15,9 +15,11 @@ html {
     line-height: 1.8;
     color: #000;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
+    width: 100%;
     background-color: #fff;
     overflow-x: hidden;
 }
