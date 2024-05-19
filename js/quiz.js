@@ -45,6 +45,9 @@ async function enterQuizData() {
 
     // 問題数の取得
     numberOfQuizzes = marchJsonData.quizzes.length;
+    // タイトルの取得
+    const workbookTitle = marchJsonData.title;
+    document.getElementById('workbook-title').innerHTML = workbookTitle;
 
     // 各オブジェクトに対して処理を行う
     shuffledQuizzes.forEach((quiz, index) => {
