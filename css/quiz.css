@@ -96,6 +96,10 @@ main{
     .answer.is-shown{
         opacity: 1;
     }
+    & img{
+        width: 100%;
+        height: auto;
+    }
 }
 .quiz-item.is-correct{
     background-color: rgba(49, 169, 200, .15);
