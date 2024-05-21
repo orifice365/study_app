@@ -3,20 +3,97 @@
     "range": "Lesson1〜3",
     "quizzes": [
         {
-            "question": "問題1",
+            "question": "今朝、インターネットにアクセスできなかった。",
             "answer": "解答1"
         },
         {
-            "question": "問題2",
+            "question": "ネットサーフィンをした。",
             "answer": "解答2"
         },
         {
-            "question": "問題3",
+            "question": "インターネットを（いろいろと）見た。",
             "answer": "解答3"
         },
         {
-            "question": "問題4",
+            "question": "その写真がバズった。",
             "answer": "解答4"
+        },
+        {
+            "question": "インターネットで情報を探してみます。",
+            "answer": "解答5"
+        },
+        {
+            "question": "去年、うちの学校はオンラインで授業を行った。",
+            "answer": "解答6"
+        },
+        {
+            "question": "私はインターネットの発達に関する記事を読んだ。",
+            "answer": "解答7"
+        },
+        {
+            "question": "私たちは正確な情報だけが欲しいです。",
+            "answer": "解答8"
+        },
+        {
+            "question": "最新の情報については当社のウェブサイトをご覧ください。",
+            "answer": "解答9"
+        },
+        {
+            "question": "これは正確で信頼できる情報ですか？",
+            "answer": "解答10"
+        },
+        {
+            "question": "こういったアプリによって、私の生活は便利になった。",
+            "answer": "These apps have made my life easier."
+        },
+        {
+            "question": "インターネットの発達により、私たちは以前よりも多くの情報を手に入れられるようになった。",
+            "answer": "The development of the Internet has enabled us to get more information than before."
+        },
+        {
+            "question": "インターネットの発達により、私たちの生活は驚くほど便利になった。",
+            "answer": "The development of the Internet has made our daily lives much easier."
+        },
+        {
+            "question": "私の姉のツイートはバズった。",
+            "answer": "My sister’s tweet went viral."
+        },
+        {
+            "question": "私はレポートを書くとき、普段はインターネットで情報を得ている。",
+            "answer": "I usually get information on the Internet when I write a paper."
+        },
+        {
+            "question": "私は靴を1足ネット通販で買った。",
+            "answer": "I bought a pair of shoes online."
+        },
+
+        {
+            "question": "彼はインターネットを1時間（いろいろと）見た。",
+            "answer": "He browsed the Internet for an hour."
+        },
+        {
+            "question": "インターネットの発達によって、世界は大きく変わった。",
+            "answer": "The development of the Internet has completely changed the world."
+        },
+        {
+            "question": "このソフトウェアによって、私の仕事ははるかに簡単になった。",
+            "answer": "This software has made my job much easier."
+        },
+        {
+            "question": "インターネットのおかげで、私たちは一瞬で最新情報を手に入れられるようになった。",
+            "answer": "The Internet has made it possibe for us to quickly get the latest information."
+        },
+        {
+            "question": "人々は、書きたいものをなんでもネットに書き込む。",
+            "answer": "People write whatever they want on the Internet."
+        },
+        {
+            "question": "服をネット通販で買う人が急速に増えてきた。",
+            "answer": "The number of people who buy clothes online has increased rapidly."
+        },
+        {
+            "question": "コンピューターやスマホがどれだけ普及しているかを考えれば、オンラインで勉強している人が増えているのも当然だろう。",
+            "answer": "If you consider haw common computers and smartphones have become, it is natural that the number of people who study online is increasing."
         }
     ]
 }
