@@ -1,0 +1,18 @@
+{
+    "title": "積分",
+    "range": "4STEPより抜粋",
+    "quizzes": [
+        {
+            "question": "<img src='images/sekibun/q1.png'>",
+            "answer": "<img src='images/sekibun/a1.png'>"
+        },
+        {
+            "question": "<img src='images/sekibun/q2.png'>",
+            "answer": "<img src='images/sekibun/a2.png'>"
+        },
+        {
+            "question": "<img src='images/sekibun/q3.png'>",
+            "answer": "<img src='images/sekibun/a3.png'>"
+        }
+    ]
+}
